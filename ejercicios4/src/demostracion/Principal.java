@@ -2,7 +2,6 @@ package demostracion;
 import java.util.Scanner ;
 public class Principal {
 	public static void main(String[ ]args) {
-	//declaracion de variables 
 	Scanner entrada = new Scanner (System.in);
 	double tarifa = 3;
 	double mensajes ;
@@ -15,35 +14,28 @@ public class Principal {
 	if (mensajes <=40) { //primera condicion
 		tarifaNueva = tarifa ;
 		tarifaFinal = (tarifaNueva*0.12)	+ tarifaNueva;
-		//presentacion de resultados
-		System.out.printf("el valor final mensual a pagar es : %.ff",tarifaFinal);
+		System.out.printf("el valor final mensual a pagar es : %s !",tarifaFinal);//presentacion de resultados
 	}else {
-		if (mensajes > 40 && mensajes <= 200 ){ //segunda condicion
-			
+		if (mensajes > 40 && mensajes <= 200 ){
 			mensajesExtra = mensajes - 40;
 			tarifaNueva = (mensajesExtra*0.05) + tarifa ;
 			tarifaFinal = (tarifaNueva*0.12)	+ tarifaNueva;
-			//presentacion de resultados
-			System.out.printf("el valor final mensual a pagar es : %.ff",tarifaFinal);
-					
+			System.out.printf("el valor final mensual a pagar es : %s !",tarifaFinal);//presentacion de resultados
 		}else {
-			if (mensajes > 200 ){ //tercera condicion
-				
+			if (mensajes > 200 ){
 				mensajesExtra = mensajes - 200;
 				tarifaNueva = (mensajesExtra*0.1) + tarifa ;	
 				tarifaFinal = (tarifaNueva*0.12)	+ tarifaNueva;
-				//presentacion de resultados
-				System.out.printf("el valor final mensual a pagar es : %.ff",tarifaFinal);
-				}
-			
-			
+				System.out.printf("el valor final mensual a pagar es : %s !",tarifaFinal);//presentacion de resultados
+			}
+		}
 	}
-		
-		
-
-	}
-
-		
+	
+	
+	
+	
+	
+	
 	
 	}
 }

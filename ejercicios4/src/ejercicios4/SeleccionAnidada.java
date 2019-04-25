@@ -37,3 +37,31 @@ import paquete_dos .*
 	
 	}
 }
+//borrar
+//else {
+	//	if (mensajes > 40 && mensajes <= 200 ){ //segunda condicion
+		//	
+			//mensajesExtra = mensajes - 40;
+			//tarifaNueva = (mensajesExtra*0.05) + tarifa ;
+			//tarifaFinal = (tarifaNueva*0.12)	+ tarifaNueva;
+			//presentacion de resultados
+			//System.out.printf("el valor final mensual a pagar es : %.ff",tarifaFinal);
+					
+		//}else {
+			//if (mensajes > 200 ){ //tercera condicion
+				
+				//mensajesExtra = mensajes - 200;
+				//tarifaNueva = (mensajesExtra*0.1) + tarifa ;	
+				//tarifaFinal = (tarifaNueva*0.12)	+ tarifaNueva;
+				//presentacion de resultados
+				//System.out.printf("el valor final mensual a pagar es : %.ff",tarifaFinal);
+				//}
+			
+			
+	}
+		
+		
+
+	}
+	
+	
